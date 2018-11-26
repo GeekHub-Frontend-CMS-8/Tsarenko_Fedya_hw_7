@@ -1,0 +1,129 @@
+header {
+  padding: 24px 0;
+  font-family: "Montserrat", sans-serif; }
+
+.nav-item .nav-link {
+  color: #8d81ac !important; }
+  @media (max-width: 992px) {
+    .nav-item .nav-link {
+      color: #fff !important; } }
+
+.navbar-brand {
+  display: flex;
+  align-items: center; }
+  @media (max-width: 425px) {
+    .navbar-brand {
+      font-size: 10px; } }
+  .navbar-brand img {
+    margin-right: 17px; }
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    background-color: #333333; } }
+
+@media (max-width: 992px) {
+  .nav-item {
+    padding: 20px 0 20px 18px;
+    color: #fff;
+    border: 1px solid #3a3939; }
+    .nav-item:last-child {
+      padding-bottom: 0; }
+    .nav-item i {
+      margin-bottom: 66px; } }
+
+.follow-text {
+  display: block;
+  color: #d4d4d4; }
+
+@media (min-width: 992px) {
+  .follow-us {
+    display: none; } }
+
+.fab {
+  margin-top: 40px;
+  font-size: 46px; }
+  .fab:nth-child(3) {
+    margin: 0 45px;
+    color: #8d81ac; }
+
+.navigation {
+  margin-right: 155px; }
+
+@media (max-width: 320px) {
+  .navbar {
+    padding: 0; } }
+
+.buy-now {
+  position: absolute;
+  right: 16px;
+  padding-right: 36px;
+  padding-left: 36px;
+  color: #fff;
+  background-color: #8d81ac;
+  border-radius: 25px; }
+  @media (max-width: 990px) {
+    .buy-now {
+      position: relative; } }
+  @media (max-width: 425px) {
+    .buy-now {
+      padding-left: 18px;
+      padding-right: 18px;
+      font-size: 10px; } }
+
+.end-text {
+  color: #8d81ac; }
+
+.fork-app {
+  padding: 108px 0 0 0;
+  background-image: url("../img/img.png");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif; }
+  .fork-app-h1 {
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700; }
+  .fork-app-p1 {
+    color: #8d81ac;
+    font-size: 30px;
+    font-family: "Lato", sans-serif; }
+    @media (max-width: 992px) {
+      .fork-app-p1 {
+        text-transform: capitalize; } }
+  .fork-app-p2 {
+    color: #848e97;
+    font-size: 16px; }
+  .fork-app-btn {
+    position: relative;
+    bottom: -20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 449px auto 0;
+    max-width: 390px;
+    color: #fff;
+    background-color: #8d81ac;
+    border-radius: 25px; }
+
+.editor {
+  padding: 48px 0 70px 0; }
+  .editor-span {
+    margin: 19px 0 0 0;
+    color: #848e97;
+    font-size: 14px; }
+  .editor-h1 {
+    margin-top: 66px;
+    color: #635c73;
+    font-size: 54px;
+    font-weight: 700; }
+  .editor-paragraph {
+    margin: 39px auto 0; }
+
+.btn-container {
+  padding-top: 36px; }
+
+.widget:nth-child(2) {
+  margin-left: 9px;
+  margin-right: 9px; }
