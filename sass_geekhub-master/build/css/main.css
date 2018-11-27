@@ -1,4 +1,5 @@
 header {
+  background: #fff;
   padding: 24px 0;
   font-family: "Montserrat", sans-serif; }
 
@@ -22,7 +23,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: 20px;
+    margin-top: 32px;
     background-color: #333333; } }
 
 @media (max-width: 992px) {
@@ -118,12 +119,68 @@ header {
     color: #635c73;
     font-size: 54px;
     font-weight: 700; }
+    @media (max-width: 461px) {
+      .editor-h1 {
+        font-size: 35px; } }
   .editor-paragraph {
     margin: 39px auto 0; }
 
 .btn-container {
   padding-top: 36px; }
+  .btn-container span:nth-child(2) {
+    margin: 0 9px 0 9px; }
 
-.widget:nth-child(2) {
-  margin-left: 9px;
-  margin-right: 9px; }
+.get {
+  background-color: #f4f4f4;
+  padding: 84px 0 69px 0; }
+  @media (max-width: 992px) {
+    .get {
+      padding-bottom: 0; } }
+  .get-elements-cont {
+    position: relative;
+    top: -35px; }
+    @media (max-width: 992px) {
+      .get-elements-cont {
+        top: 0; } }
+  .get-h2 {
+    color: #8d81ac;
+    font-size: 48px;
+    margin-left: auto; }
+    @media (max-width: 992px) {
+      .get-h2 {
+        margin: 0 auto 61px; } }
+  .get-h3 {
+    font-size: 16px; }
+  .get-img-1 {
+    background-image: url("../img/icon.png");
+    background-repeat: no-repeat;
+    height: 64px; }
+  .get-img-2 {
+    background-image: url("../img/icon-2.png");
+    background-repeat: no-repeat;
+    height: 80px; }
+  .get-img-3 {
+    background-image: url("../img/icon-3.png");
+    background-repeat: no-repeat;
+    height: 84px; }
+  .get-img-4 {
+    background-image: url("../img/icon-4.png");
+    background-repeat: no-repeat;
+    height: 71px; }
+  .get-result {
+    position: absolute;
+    right: 0;
+    bottom: -130px;
+    height: 580px;
+    background-image: url("../img/editor.png"); }
+    @media (max-width: 992px) {
+      .get-result {
+        position: relative;
+        bottom: -60px; } }
+  .get-paragraph {
+    font-size: 14px; }
+  .get-item {
+    display: flex;
+    margin-bottom: 18px; }
+    .get-item:last-child {
+      margin-bottom: 0; }
