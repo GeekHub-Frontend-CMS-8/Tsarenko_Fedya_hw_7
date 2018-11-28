@@ -114,13 +114,13 @@ header {
     margin: 19px 0 0 0;
     color: #848e97;
     font-size: 14px; }
-  .editor-h1 {
+  .editor-h2 {
     margin-top: 66px;
     color: #635c73;
     font-size: 54px;
     font-weight: 700; }
     @media (max-width: 461px) {
-      .editor-h1 {
+      .editor-h2 {
         font-size: 35px; } }
   .editor-paragraph {
     margin: 39px auto 0; }
@@ -169,14 +169,17 @@ header {
     height: 71px; }
   .get-result {
     position: absolute;
-    right: 0;
+    right: -150px;
     bottom: -130px;
+    max-width: 705px;
+    width: 100%;
     height: 580px;
     background-image: url("../img/editor.png"); }
     @media (max-width: 992px) {
       .get-result {
         position: relative;
-        bottom: -60px; } }
+        bottom: -60px;
+        right: 0; } }
   .get-paragraph {
     font-size: 14px; }
   .get-item {
@@ -209,7 +212,7 @@ header {
 
 .d-block {
   max-width: 904px;
-  font-family: "Source sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 20px; }
 
 .fas {
@@ -247,7 +250,7 @@ header {
   padding: 16px 25px;
   max-width: 280px;
   width: 100%;
-  font-family: "Source sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   border-radius: 2%;
   font-size: 21px; }
   .btn-github:hover, .btn-twitter:hover, .btn-facebook:hover {
@@ -272,10 +275,129 @@ header {
     padding: 0 22%; }
     @media (max-width: 992px) {
       .btn-social-span:last-child {
-        padding: 0 17%; } }
+        padding: 0 15%; } }
 
 .social-statistic {
   padding: 18px 0;
   margin-bottom: 0;
   color: #848e97;
   font-size: 14px; }
+
+.testimonials {
+  padding: 49px 0 49px 0;
+  background: #4b3b4e url("../img/Layer_1.png") no-repeat center;
+  background-size: cover; }
+  .testimonials-h2 {
+    padding: 0 0 93px 0;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; }
+    @media (max-width: 992px) {
+      .testimonials-h2 {
+        padding: 32px; } }
+  .testimonials-paragraph {
+    padding: 30px 0 60px 0;
+    margin: 0 auto;
+    font-family: "Source Sans Pro - Bold It", sans-serif;
+    color: #fff;
+    font-weight: bold; }
+  .testimonials-container::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    max-width: 780px;
+    width: 100%;
+    opacity: 0.2;
+    background-color: #c7c7c7; }
+
+.pricing {
+  padding: 30px 0 77px 0;
+  background: #4b3b4e url("../img/Layer_2.png") no-repeat center;
+  background-size: cover; }
+  .pricing-element {
+    margin: 10px auto;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.11); }
+    @media (min-width: 576px) {
+      .pricing-element {
+        max-width: 46%;
+        width: 100%; } }
+    @media (min-width: 768px) {
+      .pricing-element {
+        max-width: 23%;
+        width: 100%; }
+        .pricing-element:hover {
+          background-color: rgba(0, 0, 0, 0.06);
+          transition: 0.3s; }
+        .pricing-element:hover .pricing-element-title {
+          background-color: rgba(0, 0, 0, 0.11);
+          transition: 0.3s; }
+        .pricing-element:hover .pricing-element-price {
+          font-size: 82px;
+          transition: 0.3s; } }
+  .pricing-h2 {
+    margin-bottom: 120px;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; }
+    @media (max-width: 768px) {
+      .pricing-h2 {
+        margin-bottom: 47px; } }
+  .pricing-element-title {
+    padding: 45px 0 30px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.06); }
+  .pricing-element-price {
+    padding: 36px 0 26px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: bold; }
+  .pricing-element-term {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #d4d4d4;
+    opacity: 0.3; }
+    .pricing-element-term::after {
+      content: '';
+      display: block;
+      margin: 38px auto 0;
+      height: 5px;
+      width: 60px;
+      background-color: #8d81ac; }
+  .pricing-element-description {
+    padding: 31px 26px 33px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif; }
+  .pricing-element-btn {
+    padding: 15px 0;
+    margin: 33px 0 38px;
+    max-width: 160px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    border: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15); }
+    .pricing-element-btn:hover {
+      box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+      transition: 0.3s; }
+
+.pricing-bottom-info {
+  margin-top: 133px; }
+  @media (max-width: 768px) {
+    .pricing-bottom-info {
+      margin-top: 41px; } }
+
+.pricing-bottom-paragraph {
+  color: #a291a5;
+  font-family: "Source Sans Pro", sans-serif; }
