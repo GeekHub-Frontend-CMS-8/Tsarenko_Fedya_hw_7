@@ -1,0 +1,62 @@
+@import "variables"
+
+footer
+  box-sizing: border-box
+  padding: 0 0 100px 0
+  &::before
+    content: ''
+    display: block
+    margin: 0 auto
+    height: 1px
+    max-width: 1110px
+    width: 100%
+    background-color: #c7c7c7
+  .container
+    padding-top: 67px
+
+.logo-text
+  margin-left: 18px
+  font-size: 24px
+  font-family: $main-font
+
+.footer-paragraph
+  padding: 24px 0 36px
+  margin-bottom: 0
+  color: #848e97
+  font-size: 14px
+
+.navigations-title
+  color: #323232
+  line-height: 28px
+  font-family: $main-font
+
+.footer-navigations
+  padding-left: 0
+  list-style-type: none
+  a
+    color: $main-color
+    text-decoration: none
+
+.footer-address
+  h2
+    font-weight: bold
+
+  h3
+    font-size: 16px
+
+  .footer-paragraph
+    padding-top: 0
+    &:last-child
+      padding: 21px 0 0
+
+.footer-info
+  h3
+    font-size: 16px
+    @media (max-width: 768px)
+      margin-top: 38px
+
+  p
+    font-size: 14px
+    padding: 0
+
+
