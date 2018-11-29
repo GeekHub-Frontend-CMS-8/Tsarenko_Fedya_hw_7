@@ -2,6 +2,22 @@ header {
   background: #fff;
   padding: 24px 0;
   font-family: "Montserrat", sans-serif; }
+  @media (max-width: 768px) {
+    header {
+      padding-bottom: 0; } }
+
+@media (max-width: 768px) {
+  .navigation-container {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0; } }
+
+@media (max-width: 992px) {
+  .navigation {
+    width: 100%; } }
 
 .nav-item .nav-link {
   color: #8d81ac !important; }
@@ -20,9 +36,6 @@ header {
 
 @media (max-width: 992px) {
   .navbar-nav {
-    position: absolute;
-    left: 0;
-    right: 0;
     margin-top: 32px;
     background-color: #333333; } }
 
@@ -53,24 +66,30 @@ header {
 
 .navigation {
   margin-right: 155px; }
+  @media (max-width: 992px) {
+    .navigation {
+      margin-right: 0; } }
 
 @media (max-width: 320px) {
   .navbar {
     padding: 0; } }
 
-.buy-now {
+.buy-now-btn {
   position: absolute;
   right: 16px;
   padding-right: 36px;
   padding-left: 36px;
   color: #fff;
   background-color: #8d81ac;
+  border: none;
   border-radius: 25px; }
+  .buy-now-btn:hover {
+    background-color: #803C93; }
   @media (max-width: 990px) {
-    .buy-now {
+    .buy-now-btn {
       position: relative; } }
   @media (max-width: 425px) {
-    .buy-now {
+    .buy-now-btn {
       padding-left: 18px;
       padding-right: 18px;
       font-size: 10px; } }
@@ -106,7 +125,10 @@ header {
     max-width: 390px;
     color: #fff;
     background-color: #8d81ac;
+    border: none;
     border-radius: 25px; }
+    .fork-app-btn:hover {
+      background-color: #803C93; }
 
 .editor {
   padding: 48px 0 70px 0; }
@@ -251,6 +273,7 @@ header {
   max-width: 280px;
   width: 100%;
   font-family: "Source Sans Pro", sans-serif;
+  border: none;
   border-radius: 2%;
   font-size: 21px; }
   .btn-github:hover, .btn-twitter:hover, .btn-facebook:hover {
@@ -428,7 +451,10 @@ header {
     background: #8d81ac;
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
+    border: none;
     border-radius: 25px; }
+    .form-btn:hover {
+      background-color: #803C93; }
 
 .links {
   padding: 79px 0 70px; }
@@ -450,6 +476,9 @@ header {
     border: none;
     border-radius: 10px;
     background-color: #f4f4f4; }
+    .links-button:hover {
+      box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+      transition: 0.3s; }
     @media (max-width: 768px) {
       .links-button {
         margin-bottom: 68px; } }

@@ -5,6 +5,21 @@ header
   background: #fff
   padding: 24px 0
   font-family: $main-font
+  @media (max-width: 768px)
+    padding-bottom: 0
+
+.navigation-container
+  @media  (max-width: 768px)
+    padding-left: 0
+    padding-right: 0
+
+.navbar
+  @media (max-width: 768px)
+    padding: 0
+
+.navigation
+  @media (max-width: 992px)
+    width: 100%
 
 .nav-item
   .nav-link
@@ -22,12 +37,8 @@ header
 
 .navbar-nav
   @media (max-width: 992px)
-    position: absolute
-    left: 0
-    right: 0
     margin-top: 32px
     background-color: #333333
-
 
 .nav-item
   @media (max-width: 992px)
@@ -57,19 +68,24 @@ header
 
 .navigation
   margin-right: 155px
+  @media (max-width: 992px)
+    margin-right: 0
 
 .navbar
   @media (max-width: 320px)
     padding: 0
 
-.buy-now
+.buy-now-btn
   position: absolute
   right: 16px
   padding-right: 36px
   padding-left: 36px
   color: #fff
   background-color: $main-color
+  border: none
   border-radius: 25px
+  &:hover
+    background-color: #803C93
   @media (max-width: 990px)
     position: relative
   @media (max-width: 425px)
